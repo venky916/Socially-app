@@ -38,7 +38,7 @@ const CreatePost = () => {
   };
 
   return (
-    <div className="border p-3 rounded-xl space-y-4">
+    <div className="border p-3 rounded-xl space-y-4 mb-4">
       <div className="flex space-x-2">
         <Avatar className="w-12 h-12">
           <AvatarImage src={user?.imageUrl || "/images/avatar.png"} />

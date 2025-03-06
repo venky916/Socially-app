@@ -15,7 +15,7 @@ export default async function Home() {
     <div className="grid grid-cols-1 lg:grid-cols-10 gap-6">
       <div className="col-span-1 lg:col-span-6">
         {user ? <CreatePost /> : null}
-        <div className="space-y-6 mt-4">
+        <div className="space-y-6 ">
           {posts ? (
             posts.map((post) => (
               <PostCard key={post.id} post={post} userId={userId} />
